@@ -1,0 +1,13 @@
+{
+  "name": "micro-frontend",
+  "version": "0.0.1",
+  "scripts": {
+    "main:dev": "pnpm --filter main dev",
+    "main:build": "pnpm --filter main build",
+    "main:serve": "pnpm --filter main serve",
+    "build:lib": "pnpm --filter lib build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
