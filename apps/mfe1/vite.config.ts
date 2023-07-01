@@ -9,12 +9,10 @@ export default defineConfig({
     federation({
       name: "mfe1",
       filename: "remoteEntry.js",
-      remotes: {
-        mfe1: "http://localhost:3001/assets/remoteEntry.js",
-        // mfe1: "../mfe1/remoteEntry.js",
+      exposes: {
+        "./Overview": "./src/Overview",
       },
-      exposes: {},
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "libs"],
     }),
   ],
   build: {
