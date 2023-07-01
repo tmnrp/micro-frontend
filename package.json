@@ -1,0 +1,11 @@
+{
+  "name": "micro-frontend",
+  "version": "0.0.1",
+  "scripts": {},
+  "author": "tmnrp",
+  "license": "ISC",
+  "workspaces": [
+    "apps/host",
+    "libs"
+  ]
+}
